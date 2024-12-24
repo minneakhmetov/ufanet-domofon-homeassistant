@@ -1,0 +1,16 @@
+{
+  "domain": "ufanet_domofon",
+  "name": "ufanet_domofon",
+  "codeowners": [
+    "@minneakhmetov"
+  ],
+  "config_flow": true,
+  "integration_type": "hub",
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/ufanet_domofon",
+  "homekit": {},
+  "iot_class": "cloud_push",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
