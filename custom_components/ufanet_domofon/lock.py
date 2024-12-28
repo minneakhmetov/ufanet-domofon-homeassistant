@@ -1,7 +1,7 @@
+"""Platform for lock integration."""
 from homeassistant.components.lock import LockEntity
+from . import UfanetAPI
 
-
-class MyLock(LockEntity):
-
-    def unlock(self, **kwargs):
-        """Unlock all or specified locks. A code to unlock the lock with may optionally be specified."""
+class UfanetLock(LockEntity):
+    """Representation of a Ufanet Doorphone as a Lock."""
+    # Lock platform implementation (from the canvas code)
